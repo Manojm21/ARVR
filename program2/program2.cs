@@ -8,7 +8,7 @@ public class ChangeAppearance : MonoBehaviour
     public Material cubeTexture, sphereTexture, planeTexture;
 
     private bool isCubeMaterial = true;
-    private bool isSphereMaterial = false;
+    private bool isSphereMaterial = true;
     private bool isPlaneMaterial = true;
 
     public void ChangeCubeAppearance()
